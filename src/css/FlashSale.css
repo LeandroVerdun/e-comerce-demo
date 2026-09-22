@@ -1,0 +1,94 @@
+.flash-sale {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+}
+
+.flash-sale-content {
+  padding: 20px;
+}
+
+.flash-sale-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.flash-sale-content p {
+  max-width: 550px;
+  color: #fff;
+}
+
+/* CONTADOR */
+
+.flash-counter {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.flash-counter div {
+  background-color: #000;
+  border: 1px solid #333;
+  width: 120px;
+  height: 110px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flash-counter span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.flash-counter small {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+/* BOTÓN */
+
+.flash-sale .btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.flash-sale .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 576px) {
+  .flash-sale-content h2 {
+    font-size: 2rem;
+  }
+
+  .flash-counter {
+    gap: 8px;
+  }
+
+  .flash-counter div {
+    width: 90px;
+    height: 90px;
+  }
+
+  .flash-counter span {
+    font-size: 1.5rem;
+  }
+}
+
+.flash-sale {
+  background-color: #000;
+  color: #fff;
+}
+
