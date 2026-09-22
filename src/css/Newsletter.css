@@ -1,0 +1,16 @@
+.newsletter-section {
+  background-color: #f3f3f3;
+}
+
+.newsletter-content {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.newsletter-content h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter-content p {
+  margin-bottom: 0;
+}
